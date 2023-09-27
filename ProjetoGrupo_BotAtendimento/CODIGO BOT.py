@@ -21,10 +21,10 @@ def menu1(prob) :
         print("Tudo bem!")
         print("Por favor, aguarde enquanto lhe transferimos para um consultor.")
         print("O tempo de espera é de até 15 minutos.")
-        print("Você deseja voltar ao menu principal ou encerrar o atendimento? \n Para encerrar o atendimento, digite ENCERRAR \n Para voltar, digite VOLTAR")
+        print("Você deseja voltar ao menu principal ou aguardar o atendimento? \n Para aguardar o atendimento, digite AGUARDAR \n Para voltar, digite VOLTAR")
         retornar = input().upper()
-        if retornar == "ENCERRAR":
-            print("A clínica X agradece o seu contato e lhe deseja um ótimo dia!")
+        if retornar == "AGUARDAR":
+            print("Por favor, aguarde mais um momento.")
         elif retornar == "VOLTAR":
             print(menu1_print)
             prob = int(input())
